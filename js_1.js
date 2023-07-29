@@ -14,7 +14,7 @@ let List
 ///creacion de fecha
 
 const FECHA = new Date()
-fecha.innerHTML = FECHA.toLocaleDateString('es-DR',{weekday:'long',month:'short',day:'numeric'})
+fecha.innerHTML = FECHA.toLocaleDateString('es-DR',{weekday:'long',month:'short',day:'numeric' ,hour: '2-digit', minute: '2-digit'})
 
 
 

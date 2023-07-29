@@ -13,8 +13,10 @@
 }
 
 body{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     font-family: 'Dancing Script', cursive;
+    background: rgb(189,25,25);
+    background: radial-gradient(circle, rgba(189,25,25,1) 0%, rgba(28,27,24,1) 100%);
 }
 
 .container{
@@ -40,7 +42,8 @@ body{
 #fecha{
     color: var(--white);
     padding: 50px 0 5px 0;
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 
@@ -68,7 +71,7 @@ body{
 
 .agregar-tarea i{
     font-size: 40px;
-    color: plum;
+    color:#D35400;
     transition: 0.3s ease-in-out;
 }
 .agregar-tarea i:hover{
@@ -92,15 +95,19 @@ body{
     font-size: 20px;
 }
 
+.seccion-tarea h2{
+    color: white;
+}
+
 .seccion-tarea li{
     display: flex;
-    background: plum;
+    background: #000000;
     border-radius: 15px;
     padding: 10px;
     align-items: center;
     justify-content: space-around;
     margin: 10px 0;
-    color: white;
+    color: aqua;
 }
 
 .seccion-tarea i{
